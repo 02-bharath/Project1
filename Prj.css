@@ -3,6 +3,7 @@ header{
 margin-top: -1.5%;
 background-attachment: fixed;
 
+
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -10,6 +11,16 @@ nav{
 
        
 }
+}
+.villa{
+    color: white;
+}
+
+#Rooms {
+    color: white;
+}
+#extra{
+    color: white;
 }
 
 body{
@@ -79,7 +90,7 @@ button
 #extra{
     display: grid;
     /* grid-column: auto auto; */
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     justify-content: space-around;
     gap: 10px;
     text-align: center;
@@ -90,4 +101,11 @@ button
         width: 150px;
     }
 }
+}
+#contact{
+    background-color: whitesmoke;
+    img{
+        height: 20px;
+        width: 25px;
+    }
 }
